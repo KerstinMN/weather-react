@@ -10,6 +10,12 @@ function App() {
         <Weather city="Paris" />
         <SearchEngine />
       </header>
+      <p>
+        <a href="https://github.com/KerstinMN/weather-react">
+          Open-source code{" "}
+        </a>
+        by Kerstin Mayer-Nelkenstock
+      </p>
     </div>
   );
 }
