@@ -1,4 +1,5 @@
 import "./App.css";
+import SearchEngine from "./SearchEngine";
 import Weather from "./Weather";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Hello from React!!</h1>
         <Weather city="Paris" />
+        <SearchEngine />
       </header>
     </div>
   );
